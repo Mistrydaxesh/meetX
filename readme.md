@@ -1,34 +1,47 @@
 # Activity Booking App – Backend API
 
-This is a RESTful backend API for a basic activity booking application, built with Node.js, Express.js, and MongoDB. It allows users to register, log in, view activities, book them, and see their bookings.
+This is a RESTful backend API for a basic activity booking application, built with **Node.js**, **Express.js**, and **MongoDB Atlas**. It allows users to register, log in, view activities, book them, and see their bookings.
 
 ---
 
-## Features
+## 🚀 Features
 
-- User registration & login with JWT authentication
-- Password hashing using bcrypt
-- Public endpoint to list available activities
-- Protected endpoints to book activities and view user bookings
-- Input validation with express-validator
-- Clean project structure (routes, controllers, models)
-
----
-
-## Tech Stack
-
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB (Mongoose)
-- **Authentication:** JWT
-- **Validation:** express-validator
-- **Password Hashing:** bcrypt
+- ✅ User Registration & Login (JWT Auth)
+- 🔒 Password Hashing with bcrypt
+- 🌍 Public API to List Activities
+- 🔐 Book Activities (Protected)
+- 📄 View My Bookings (Protected)
+- ✅ Input Validation using express-validator
+- 📁 Clean Project Structure (Routes, Controllers, Models)
 
 ---
 
-## Setup Instructions
+## 🛠 Tech Stack
 
-### 1. Clone the Repository
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB (Mongoose, hosted on Atlas)
+- **Authentication**: JWT Token-based
+- **Validation**: express-validator
+- **Hashing**: bcrypt
+
+---
+
+## 📦 Setup Instructions
+
+### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/activity-booking-api.git
-cd activity-booking-api
+git clone https://github.com/Mistrydaxesh/meetX.git
+cd meetX/Backend
+
+### Step 2: Install Dependencies
+
+```bash
+npm install
+
+### Step 3: Run the Server
+
+```bash
+npm start
+
+
